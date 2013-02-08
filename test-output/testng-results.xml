@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4009" started-at="2011-11-23T17:07:11Z" finished-at="2011-11-23T17:07:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4009" started-at="2011-11-23T17:07:11Z" finished-at="2011-11-23T17:07:15Z">
+      <class name="AnnouncementTest">
+        <test-method status="PASS" signature="test1(java.lang.String, au.brian.asx.domain.Announcement$Type, int, int)[pri:0, instance:AnnouncementTest@4178460d]" name="test1" duration-ms="1825" started-at="2011-11-23T17:07:11Z" finished-at="2011-11-23T17:07:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/briancole/Downloads/41zk1jggm90mmp.pdf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BUY_SELL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test1(java.lang.String, au.brian.asx.domain.Announcement$Type, int, int)[pri:0, instance:AnnouncementTest@4178460d]" name="test1" duration-ms="440" started-at="2011-11-23T17:07:13Z" finished-at="2011-11-23T17:07:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/briancole/Downloads/41zk1mmcbzcrgj.pdf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BUY_SELL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4317]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test1(java.lang.String, au.brian.asx.domain.Announcement$Type, int, int)[pri:0, instance:AnnouncementTest@4178460d]" name="test1" duration-ms="288" started-at="2011-11-23T17:07:14Z" finished-at="2011-11-23T17:07:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/briancole/Downloads/41zsqscksqwlz9.pdf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BUY_SELL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test1(java.lang.String, au.brian.asx.domain.Announcement$Type, int, int)[pri:0, instance:AnnouncementTest@4178460d]" name="test1" duration-ms="361" started-at="2011-11-23T17:07:14Z" finished-at="2011-11-23T17:07:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/briancole/Downloads/420jyp71tjwd15.pdf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BUY_SELL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test1(java.lang.String, au.brian.asx.domain.Announcement$Type, int, int)[pri:0, instance:AnnouncementTest@4178460d]" name="test1" duration-ms="368" started-at="2011-11-23T17:07:14Z" finished-at="2011-11-23T17:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/briancole/Downloads/420kvbksx0t768.pdf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BUY_SELL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test1(java.lang.String, au.brian.asx.domain.Announcement$Type, int, int)[pri:0, instance:AnnouncementTest@4178460d]" name="test1" duration-ms="315" started-at="2011-11-23T17:07:15Z" finished-at="2011-11-23T17:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/briancole/Downloads/420nqx23dvvsd3.pdf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BUY_SELL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7688]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test1(java.lang.String, au.brian.asx.domain.Announcement$Type, int, int)[pri:0, instance:AnnouncementTest@4178460d]" name="test1" duration-ms="138" started-at="2011-11-23T17:07:15Z" finished-at="2011-11-23T17:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/briancole/Downloads/420nzwthq7kkdb.pdf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OTHER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test1(java.lang.String, au.brian.asx.domain.Announcement$Type, int, int)[pri:0, instance:AnnouncementTest@4178460d]" name="test1" duration-ms="63" started-at="2011-11-23T17:07:15Z" finished-at="2011-11-23T17:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/briancole/Downloads/4214h9d3gvsl1k.pdf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OTHER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test1(java.lang.String, au.brian.asx.domain.Announcement$Type, int, int)[pri:0, instance:AnnouncementTest@4178460d]" name="test1" duration-ms="138" started-at="2011-11-23T17:07:15Z" finished-at="2011-11-23T17:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/briancole/Downloads/4218058x0zvvtp.pdf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[OTHER]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
