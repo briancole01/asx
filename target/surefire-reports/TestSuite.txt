@@ -1,0 +1,67 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 0.397 sec <<< FAILURE!
+test1(au.brian.asx.domain.AnnouncementTest)  Time elapsed: 0.074 sec  <<< FAILURE!
+java.io.FileNotFoundException: \Users\briancole\Downloads\41zk1jggm90mmp.pdf (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1125)
+	at au.brian.asx.domain.Announcement.parseAnnouncement(Announcement.java:108)
+	at au.brian.asx.domain.AnnouncementTest.test1(AnnouncementTest.java:56)
+test1(au.brian.asx.domain.AnnouncementTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.io.FileNotFoundException: \Users\briancole\Downloads\41zk1mmcbzcrgj.pdf (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1125)
+	at au.brian.asx.domain.Announcement.parseAnnouncement(Announcement.java:108)
+	at au.brian.asx.domain.AnnouncementTest.test1(AnnouncementTest.java:56)
+test1(au.brian.asx.domain.AnnouncementTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.io.FileNotFoundException: \Users\briancole\Downloads\41zsqscksqwlz9.pdf (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1125)
+	at au.brian.asx.domain.Announcement.parseAnnouncement(Announcement.java:108)
+	at au.brian.asx.domain.AnnouncementTest.test1(AnnouncementTest.java:56)
+test1(au.brian.asx.domain.AnnouncementTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.io.FileNotFoundException: \Users\briancole\Downloads\420jyp71tjwd15.pdf (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1125)
+	at au.brian.asx.domain.Announcement.parseAnnouncement(Announcement.java:108)
+	at au.brian.asx.domain.AnnouncementTest.test1(AnnouncementTest.java:56)
+test1(au.brian.asx.domain.AnnouncementTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.io.FileNotFoundException: \Users\briancole\Downloads\420kvbksx0t768.pdf (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1125)
+	at au.brian.asx.domain.Announcement.parseAnnouncement(Announcement.java:108)
+	at au.brian.asx.domain.AnnouncementTest.test1(AnnouncementTest.java:56)
+test1(au.brian.asx.domain.AnnouncementTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.io.FileNotFoundException: \Users\briancole\Downloads\420nqx23dvvsd3.pdf (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1125)
+	at au.brian.asx.domain.Announcement.parseAnnouncement(Announcement.java:108)
+	at au.brian.asx.domain.AnnouncementTest.test1(AnnouncementTest.java:56)
+test1(au.brian.asx.domain.AnnouncementTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.io.FileNotFoundException: \Users\briancole\Downloads\420nzwthq7kkdb.pdf (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1125)
+	at au.brian.asx.domain.Announcement.parseAnnouncement(Announcement.java:108)
+	at au.brian.asx.domain.AnnouncementTest.test1(AnnouncementTest.java:56)
+test1(au.brian.asx.domain.AnnouncementTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.io.FileNotFoundException: \Users\briancole\Downloads\4214h9d3gvsl1k.pdf (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1125)
+	at au.brian.asx.domain.Announcement.parseAnnouncement(Announcement.java:108)
+	at au.brian.asx.domain.AnnouncementTest.test1(AnnouncementTest.java:56)
+test1(au.brian.asx.domain.AnnouncementTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.io.FileNotFoundException: \Users\briancole\Downloads\4218058x0zvvtp.pdf (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.apache.pdfbox.pdmodel.PDDocument.load(PDDocument.java:1125)
+	at au.brian.asx.domain.Announcement.parseAnnouncement(Announcement.java:108)
+	at au.brian.asx.domain.AnnouncementTest.test1(AnnouncementTest.java:56)

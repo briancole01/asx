@@ -2,13 +2,13 @@ package au.brian.asx.domain;
 
 import java.util.ArrayList;
 import java.util.List;
+import org.testng.Assert;
+import org.testng.annotations.*;
 
 import au.brian.asx.domain.Announcement.Type;
 import au.brian.asx.domain.ShareEvaluation.Recommendation;
 
-import junit.framework.TestCase;
-
-public class ShareEvaluationTest extends TestCase {
+public class ShareEvaluationTest {
 
 	private static Share makeShare(String name, float price) {
 		Share s1 = new Share(name);
@@ -29,6 +29,7 @@ public class ShareEvaluationTest extends TestCase {
 		return list;
 	}
 	
+	@Test
 	public void test1() {
 		Share qbe = makeShare("QBE",1000);
 		ShareEvaluation e = new ShareEvaluation(qbe);

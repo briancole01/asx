@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.util.PDFTextStripper;
 
@@ -33,7 +33,7 @@ public class Announcement {
 	private Integer soldNumber = null;
 	
 	//public static String changeOfDirectorInterestNoticeRegex = "ppendix";
-	//public static String changeOfDirectorInterestNoticeRegex = "Change of DirectorÕs Interest Notice";
+	//public static String changeOfDirectorInterestNoticeRegex = "Change of Directorï¿½s Interest Notice";
 	public static String changeOfDirectorInterestNoticeRegex = "Change of Director";
 	public static Pattern changeOfDirectorInterestNoticePattern = Pattern.compile(changeOfDirectorInterestNoticeRegex,Pattern.CASE_INSENSITIVE & Pattern.MULTILINE);
 	//public static Pattern changeOfDirectorInterestNoticePattern = Pattern.compile(changeOfDirectorInterestNoticeRegex);

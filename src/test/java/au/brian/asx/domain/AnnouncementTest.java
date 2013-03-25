@@ -1,3 +1,4 @@
+package au.brian.asx.domain;
 
 
 import java.io.File;
@@ -49,7 +50,7 @@ public void test1(String file, Announcement.Type type, int boughtNumber, int sol
 //	  for (int i : li) {
 //		  System.out.println(i);
 //	  }
-//	  log.info("indexof=" + "Change of DirectorÕs Interest Notice".indexOf("ange of Director"));
+//	  log.info("indexof=" + "Change of Directorï¿½s Interest Notice".indexOf("ange of Director"));
 	  Announcement a = null;
 	  try {
 		  a = Announcement.parseAnnouncement(share, f);
